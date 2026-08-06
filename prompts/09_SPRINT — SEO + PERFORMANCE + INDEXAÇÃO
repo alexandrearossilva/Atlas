@@ -1,0 +1,202 @@
+SPRINT 09 — SEO + PERFORMANCE + INDEXAÇÃO
+
+OBJECTIVE
+
+Prepare Atlas for search engines and production performance.
+
+This sprint is exclusively technical.
+
+Do NOT change the visual identity.
+
+Do NOT modify layouts.
+
+Do NOT create new pages.
+
+Do NOT change editorial content.
+
+============================================================
+
+DO NOT MODIFY
+
+- Layout
+- Components
+- Home
+- Navigation
+- Entity pages
+- Goal pages
+- Database structure
+- Visual identity
+- Editorial texts
+- Images
+
+============================================================
+
+1. SEO
+
+Implement complete SEO structure.
+
+Include:
+
+• sitemap.xml
+
+• robots.txt
+
+• canonical URLs
+
+• Open Graph metadata
+
+• Twitter Cards
+
+• Structured Data (Schema.org)
+
+• title
+
+• meta description
+
+• favicon verification
+
+• dynamic metadata for:
+
+- Players
+- Clubs
+- Competitions
+- Goals
+
+============================================================
+
+2. INDEXATION
+
+Prepare Atlas for Google indexing.
+
+Verify:
+
+• internal linking
+
+• crawlability
+
+• sitemap generation
+
+• robots configuration
+
+• canonical consistency
+
+============================================================
+
+3. PERFORMANCE
+
+Optimize website performance.
+
+Implement:
+
+• Lazy Loading
+
+• Image optimization
+
+• Modern image formats where supported
+
+• Browser cache
+
+• Code splitting
+
+• Route preloading where appropriate
+
+• Remove unused assets
+
+Target Lighthouse:
+
+Desktop ≥ 90
+
+Mobile ≥ 85
+
+============================================================
+
+4. ACCESSIBILITY
+
+Review basic accessibility.
+
+Verify:
+
+• alt text
+
+• heading hierarchy
+
+• keyboard navigation
+
+• contrast
+
+• aria labels where appropriate
+
+============================================================
+
+5. TECHNICAL REVIEW
+
+Review:
+
+• broken links
+
+• console errors
+
+• duplicate metadata
+
+• loading issues
+
+• responsive regressions
+
+Correct only if necessary.
+
+============================================================
+
+OUT OF SCOPE
+
+Do NOT implement:
+
+- Authentication
+
+- User accounts
+
+- Admin panel
+
+- CRUD
+
+- Monetization
+
+- Analytics
+
+- New entities
+
+- New goals
+
+- New pages
+
+- Visual redesign
+
+============================================================
+
+DELIVERABLE
+
+Provide ONLY:
+
+SEO
+✓ Completed
+
+Performance
+✓ Completed
+
+Accessibility
+✓ Reviewed
+
+Indexation
+✓ Ready
+
+Technical Review
+✓ Completed
+
+Inform Lighthouse Desktop score.
+
+Inform Lighthouse Mobile score.
+
+List only the files modified.
+
+Confirm that no visual or functional behavior of the Atlas was changed.
+
+End Sprint.

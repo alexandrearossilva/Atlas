@@ -1,0 +1,214 @@
+SPRINT 10 — MONETIZATION + ANALYTICS INFRASTRUCTURE
+
+OBJECTIVE
+
+Prepare Atlas for future monetization and traffic measurement.
+
+This sprint must ONLY prepare the infrastructure.
+
+Nothing should become visible to users.
+
+Advertisements must remain disabled.
+
+============================================================
+
+DO NOT MODIFY
+
+- Layout
+- Visual Identity
+- Home
+- Entity Pages
+- Goal Pages
+- Navigation
+- Editorial Content
+- Images
+- Database Structure
+- Existing SEO
+- Existing Performance
+
+============================================================
+
+1. GOOGLE ANALYTICS
+
+Prepare complete Google Analytics 4 integration.
+
+Implement:
+
+• GA4 initialization point
+
+• Page View tracking
+
+• Route change tracking
+
+• Custom event structure
+
+Analytics must remain inactive until Measurement ID is provided.
+
+Use environment variables.
+
+============================================================
+
+2. GOOGLE SEARCH CONSOLE
+
+Prepare verification support.
+
+Implement:
+
+• verification meta tag support
+
+• environment variable
+
+Do not use fake verification codes.
+
+============================================================
+
+3. GOOGLE ADSENSE
+
+Prepare complete AdSense infrastructure.
+
+Requirements:
+
+• all code behind feature flag
+
+• no ads displayed
+
+• no AdSense scripts loaded while disabled
+
+Prepare placeholders for:
+
+• Top Banner
+
+• Middle Banner
+
+• Bottom Banner
+
+• Sidebar Banner
+
+============================================================
+
+4. AFFILIATE INFRASTRUCTURE
+
+Prepare affiliate areas.
+
+Do NOT display anything.
+
+Create reusable placeholder components for future use.
+
+Prepare:
+
+• Product Card
+
+• Sponsored Section
+
+• Marketplace Widget
+
+Everything disabled.
+
+============================================================
+
+5. FEATURE FLAGS
+
+Create centralized configuration.
+
+Example:
+
+ENABLE_ANALYTICS
+
+ENABLE_ADS
+
+ENABLE_AFFILIATES
+
+All default to FALSE.
+
+The Atlas must behave exactly as it does today.
+
+============================================================
+
+6. CONFIGURATION
+
+Centralize all future production variables.
+
+Examples:
+
+SITE_URL
+
+GA_MEASUREMENT_ID
+
+ADSENSE_CLIENT_ID
+
+SEARCH_CONSOLE_VERIFICATION
+
+AFFILIATE_PROVIDER
+
+Use environment variables only.
+
+============================================================
+
+7. TECHNICAL REVIEW
+
+Verify:
+
+• no console errors
+
+• disabled modules generate zero visual impact
+
+• no performance regression
+
+============================================================
+
+OUT OF SCOPE
+
+Do NOT implement:
+
+- User Accounts
+
+- Authentication
+
+- Admin Panel
+
+- CRUD
+
+- Upload
+
+- New Pages
+
+- New Goals
+
+- New SEO changes
+
+- Layout changes
+
+- UI redesign
+
+============================================================
+
+DELIVERABLE
+
+Provide ONLY:
+
+Analytics
+✓ Prepared
+
+Search Console
+✓ Prepared
+
+AdSense
+✓ Prepared (Disabled)
+
+Affiliate Infrastructure
+✓ Prepared (Disabled)
+
+Feature Flags
+✓ Implemented
+
+Environment Configuration
+✓ Implemented
+
+Technical Review
+✓ Completed
+
+List only modified files.
+
+Confirm that the Atlas remains visually identical to Sprint 09.
+
+End Sprint.

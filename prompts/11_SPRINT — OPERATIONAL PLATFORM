@@ -1,0 +1,366 @@
+SPRINT 11 — OPERATIONAL PLATFORM
+
+OBJECTIVE
+
+Transform Atlas into a self-managed platform.
+
+After this Sprint, all editorial content must be manageable directly through the Atlas Admin Panel.
+
+The operational workflow becomes:
+
+Research
+↓
+
+Create/Edit
+↓
+
+Review
+↓
+
+Publish
+
+No Lovable intervention should be required for routine content publication.
+
+============================================================
+
+DO NOT MODIFY
+
+- Public Layout
+- Visual Identity
+- Navigation
+- SEO
+- Analytics
+- Monetization Infrastructure
+- Existing Editorial Content
+- Existing Images
+- Existing Entity URLs
+
+============================================================
+
+1. AUTHENTICATION
+
+Implement Supabase Auth.
+
+Create:
+
+• Login
+
+• Logout
+
+• Password Recovery
+
+• Session persistence
+
+Restrict the Admin area to authenticated users only.
+
+============================================================
+
+2. USER ROLES
+
+Prepare role structure.
+
+Initial roles:
+
+ADMIN
+
+EDITOR
+
+VIEWER (future use)
+
+At this stage only ADMIN requires access.
+
+============================================================
+
+3. ADMIN PANEL
+
+Create a clean dashboard.
+
+Menu:
+
+Dashboard
+
+Goals
+
+Players
+
+Clubs
+
+Competitions
+
+Rankings
+
+Media Library
+
+Settings
+
+Dashboard should display:
+
+• Total Goals
+
+• Total Players
+
+• Total Clubs
+
+• Total Competitions
+
+• Drafts
+
+• Published
+
+============================================================
+
+4. PLAYERS CRUD
+
+Create
+
+Read
+
+Update
+
+Delete
+
+Fields:
+
+Name
+
+Slug
+
+Biography
+
+Hero Image
+
+Birth Date
+
+Nationality
+
+Status
+
+SEO Title
+
+SEO Description
+
+Published
+
+============================================================
+
+5. CLUBS CRUD
+
+Fields:
+
+Name
+
+Slug
+
+History
+
+Hero Image
+
+Country
+
+Foundation
+
+Status
+
+SEO
+
+Published
+
+============================================================
+
+6. COMPETITIONS CRUD
+
+Fields:
+
+Name
+
+Slug
+
+Overview
+
+Hero Image
+
+Country
+
+Edition
+
+Status
+
+SEO
+
+Published
+
+============================================================
+
+7. GOALS CRUD
+
+This is the most important module.
+
+Fields:
+
+Title
+
+Slug
+
+Player
+
+Club
+
+Competition
+
+Match
+
+Date
+
+Minute
+
+Score
+
+Summary
+
+Article
+
+Reflection
+
+Video URL
+
+Hero Image
+
+Gallery
+
+Tags
+
+Published
+
+Draft
+
+============================================================
+
+8. MEDIA LIBRARY
+
+Upload images
+
+Preview
+
+Delete
+
+Reuse existing media
+
+Automatic optimization
+
+============================================================
+
+9. EDITORIAL WORKFLOW
+
+Support:
+
+Draft
+
+Preview
+
+Publish
+
+Update
+
+Unpublish
+
+============================================================
+
+10. VALIDATIONS
+
+Prevent:
+
+Duplicate slugs
+
+Missing mandatory fields
+
+Broken image references
+
+Invalid URLs
+
+============================================================
+
+11. SECURITY
+
+Protect every Admin Route.
+
+Review RLS.
+
+Review Policies.
+
+Review Upload permissions.
+
+============================================================
+
+12. UX
+
+Keep Admin simple.
+
+Prioritize productivity.
+
+No unnecessary animations.
+
+Fast forms.
+
+Reusable components.
+
+============================================================
+
+OUT OF SCOPE
+
+Do NOT create:
+
+Comments
+
+Favorites
+
+Notifications
+
+Search improvements
+
+Community features
+
+New Public Pages
+
+Visual redesign
+
+============================================================
+
+DELIVERABLE
+
+Provide ONLY:
+
+Authentication
+✓ Implemented
+
+Roles
+✓ Implemented
+
+Dashboard
+✓ Implemented
+
+Players CRUD
+✓ Implemented
+
+Clubs CRUD
+✓ Implemented
+
+Competitions CRUD
+✓ Implemented
+
+Goals CRUD
+✓ Implemented
+
+Media Library
+✓ Implemented
+
+Editorial Workflow
+✓ Implemented
+
+Security
+✓ Reviewed
+
+List only modified files.
+
+Confirm that the public Atlas remains visually identical.
+
+End Sprint.
